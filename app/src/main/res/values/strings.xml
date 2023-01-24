@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Sample Code</string>
+    <string name="btn_sample">Click Me!</string>
+    <string-array name="spinner_data">
+<!--        item elements, strings inside array-->
+        <item>Happy Dog!</item>
+        <item>Angry Dog..</item>
+        <item>Puppies</item>
+    </string-array>
+    <string name="choose_1">Choose One...</string>
 </resources>
