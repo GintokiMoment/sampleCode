@@ -2,7 +2,7 @@
     <string name="app_name">Sample Code</string>
     <string name="btn_sample">Click Me!</string>
     <string-array name="spinner_data">
-<!--        item elements, strings inside array-->
+        <!--        item elements, strings inside array-->
         <item>Happy Dog!</item>
         <item>Angry Dog..</item>
         <item>Puppies</item>

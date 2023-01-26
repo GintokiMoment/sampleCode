@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
                 i = new Intent(this, SpinnerActivity.class);
                 startActivity(i);
                 break;
+
+            case "btnUIActivity":
+                i = new Intent (this, UIActivity.class);
+                startActivity(i);
+                break;
         }
     }
 
