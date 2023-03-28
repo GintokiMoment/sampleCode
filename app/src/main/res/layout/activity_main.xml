@@ -14,13 +14,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <Button
         android:id="@+id/btnSample"
         android:layout_width="471dp"
         android:layout_height="41dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="324dp"
         android:onClick="buttonPressed"
-        android:text="@string/btn_sample"
+        android:text="Main Button Pressed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,7 +30,8 @@
         android:id="@+id/btnSpinnerActivity"
         android:layout_width="471dp"
         android:layout_height="41dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="192dp"
         android:onClick="buttonPressed"
         android:text="Spinner Activity"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,10 +41,98 @@
         android:id="@+id/btnUIActivity"
         android:layout_width="471dp"
         android:layout_height="41dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="128dp"
         android:onClick="buttonPressed"
         android:text="UI Activity"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btnListenerActivity"
+        android:layout_width="471dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="256dp"
+        android:onClick="buttonPressed"
+        android:text="Listener Activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIntentSenderActivity"
+        android:layout_width="471dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        android:onClick="buttonPressed"
+        android:text="Intent Sender Activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnLifeCycleActivity"
+        android:layout_width="471dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="72dp"
+        android:onClick="buttonPressed"
+        android:text="Life Cycle Activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnFileIOActivity"
+        android:layout_width="471dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="388dp"
+        android:onClick="buttonPressed"
+        android:text="File IO Activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAdapterActivity"
+        android:layout_width="471dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="456dp"
+        android:onClick="buttonPressed"
+        android:text="Adapter Activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnDateActivity"
+        android:layout_width="471dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="512dp"
+        android:onClick="buttonPressed"
+        android:text="Date Activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVolleyActivity"
+        android:layout_width="471dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="568dp"
+        android:onClick="buttonPressed"
+        android:text="Volley Activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTaskListActivity"
+        android:layout_width="471dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="632dp"
+        android:onClick="buttonPressed"
+        android:text="Task List Activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
